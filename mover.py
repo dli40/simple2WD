@@ -1,28 +1,22 @@
 import explorerhat
 
-def forward(self):
-	self.motor.forwards()
-	
-def backward(self):
-	self.motor.backwards()
-	
 def left(self):
-	self.motor.one.backwards()
-	self.motor.two.forwards()
+	explorerhat.motor.one.backwards()
+	explorerhat.motor.two.forwards()
 	
-def right(self):
-	self.motor.one.forwards()
-	self.motor.two.backwards()
+def right():
+	explorerhat.motor.one.forwards()
+	explorerhat.motor.two.backwards()
 	
-def test_reset(self):
-	self.forward()
-	self.left()
-	self.right()
-	self.backward()
+def test_reset():
+	explorerhat.forward()
+	explorerhat.left()
+	explorerhat.right()
+	explorerhat.backward()
 	
 		
-def end(self):
-	self.motor.stop()
+def end():
+	explorerhat.motor.stop()
 	
 #test code
 	
