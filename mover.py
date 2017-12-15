@@ -1,6 +1,6 @@
 import explorerhat
 
-def left(self):
+def left():
 	explorerhat.motor.one.backwards()
 	explorerhat.motor.two.forwards()
 	
