@@ -4,5 +4,5 @@ import explorerhat
 	
 
 	
-for i in range(0,49):
+for i in range(0,999):
 	explorerhat.motor.forwards()
