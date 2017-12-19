@@ -11,4 +11,10 @@ explorerhat.motor.stop()
 
 for i in range(0,9999):
 	explorerhat.motor.backwards()
+	
+	
+	
+	
+	
+explorerhat.motor.two.invert() #reset all changes before exiting	
 
