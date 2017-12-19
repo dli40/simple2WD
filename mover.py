@@ -5,8 +5,8 @@ import explorerhat
 
 	
 for i in range(0,9999):
-	explorerhat.motor.one.forwards()
-	explorerhat.motor.two.forwards()
+	explorerhat.motor.one.backwards()
+	explorerhat.motor.two.backwards()
 print("done with forwards")
 explorerhat.motor.stop()
 
